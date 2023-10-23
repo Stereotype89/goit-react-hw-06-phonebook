@@ -6,10 +6,6 @@
   --global-black-color: #000000;
   --global-white-color: #ffffff;
   --global-red-color: #ff0000;
-  --global-green-color: #02a60a;
-  --avatar-bg-color: #add8e6;
-  --profile-stats-color: #c4ddfd;
-  --global-sky-color: #1fc5f8;
   --input-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
