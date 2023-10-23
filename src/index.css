@@ -1,4 +1,18 @@
-@import-normalize; /* bring in normalize.css styles */
+@import-normalize;
+
+:root {
+  --background-color: #d0d0d0;
+  --border-color: #b3afaf;
+  --global-black-color: #000000;
+  --global-white-color: #ffffff;
+  --global-red-color: #ff0000;
+  --global-green-color: #02a60a;
+  --avatar-bg-color: #add8e6;
+  --profile-stats-color: #c4ddfd;
+  --global-sky-color: #1fc5f8;
+  --input-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
 
 body {
   margin: 0;
@@ -7,9 +21,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  margin: 0;
 }
